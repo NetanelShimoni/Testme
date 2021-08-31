@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.6.1/css/ol.css" type="text/css">
+   <link rel="stylesheet" href="../css/style.css">
+  
+    
+   <script src=
+   "https://code.jquery.com/jquery-3.3.1.min.js">
+     </script>
+   <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.6.1/build/ol.js"></script>
+    <title>OpenLayers example</title>
+  </head>
+  <body onload="printBtn()" >
+    
+    <div id="map" class="map">
+
+        <form id="formtag">
+            <label for="framework" ><b></b>Select a country:</label>
+            <select id="countries"><b></b>>
+           
+            </select>
+            <button id="btn" >search</button>
+            <input id="btn2" type = "button" value = "Check Cordination" onclick = "CheckCordinate();" />
+
+        </form>
+       
+    
+    </div>
+    <script  src="main.js"></script>    
+  </body>
+</html>
